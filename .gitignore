@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not cshaarp code
+
+!.gitignore
+!*.cs
+
+#
+
+# ...even if they are in subdirectories
+!*/
